@@ -14,7 +14,7 @@ class QuizApp(tk.Tk):
     def __init__(self):
 
         """ Sets up the app window, colour palate, images and quiz variables """
-        
+
         super().__init__()
 
         self.white_colour = "#FFFFFF"
@@ -90,7 +90,10 @@ class QuizApp(tk.Tk):
 
         tk.Label(
             left_frame,
-            text="Welcome to the SUN R&D PMO QUIZ....",
+            text="Welcome to the SUN R&D PMO Quiz!\n\n"
+                 "This quiz is designed to test your knowledge on the tools, procedures and common practises that the SUN R&D PMO Team has established.\n\n"
+                 "The quiz consists of multiple choice questions that you must answer and submit. At the end of the quiz you will recieve your score which will be stored in a results.csv file.\n\n"
+                 "Good Luck!",
             font=("Arial", 14),
             bg=self.atlas_blue_colour,
             fg=self.white_colour,
