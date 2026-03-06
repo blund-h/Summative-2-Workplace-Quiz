@@ -4,7 +4,7 @@ import os # Used to check csv exists
 def quiz_questions(rows: list[dict]) -> list[dict]:
 
     """ Converts csv rows into structured dictionaries and 
-        changes correct answer index to start from 1 instead of 0"""
+        changes correct answer index to start from 0 instead of 1"""
 
     return [
         {
